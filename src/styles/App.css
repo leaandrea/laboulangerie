@@ -785,7 +785,7 @@ image:after {
   .soustitre {
     font-family: Josefin Sans;
     color: #ededed;
-    transition: font-size 1.1s, margin-top 1s;
+    /* transition: font-size 1.1s, margin-top 1s; */
 
     font-size: 1.8rem;
     font-weight: 300;
