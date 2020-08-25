@@ -66,7 +66,7 @@ export default class ScrollingDiv extends React.Component {
       // display: "inline-block",
 
       fontSize: this.state.scrolling ? "0.8rem" : "1.8rem",
-      marginTop: this.state.scrolling ? "4.6%" : "12%",
+      marginTop: this.state.scrolling ? "4.2%" : "12%",
     };
 
     // const tryClass = classNames("boldText", "phoneNumber");
@@ -195,29 +195,29 @@ export default class ScrollingDiv extends React.Component {
               <p>Nos partenaires : </p>
               <div className="partenairesContainer">
                 <div className="div3">
-                  <Link to="https://www.blaisdis.com/">
+                  <a href="https://www.blaisdis.com/">
                     <img src={image10} className="image10" alt="logo"></img>{" "}
-                  </Link>
+                  </a>
                 </div>
                 <div className="div2">
-                  <Link to={{ pathname: "https://www.moulindauguste.fr/" }}>
+                  <a href="https://www.moulindauguste.fr/">
                     <img src={image9} className="image9" alt="logo"></img>{" "}
-                  </Link>
+                  </a>
                 </div>
                 <div className="div1">
-                  <Link to="https://www.simon-emmanuel.fr/">
+                  <a href="https://www.simon-emmanuel.fr/">
                     <img src={image8} className="image8" alt="logo"></img>{" "}
-                  </Link>
+                  </a>
                 </div>
                 <div className="div4">
-                  <Link to="https://www.belletequipement.com/">
+                  <a href="https://www.belletequipement.com/">
                     {" "}
                     <img
                       src={image11}
                       className="image11"
                       alt="logo"
                     ></img>{" "}
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
