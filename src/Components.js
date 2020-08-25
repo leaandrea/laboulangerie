@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/App.css";
 import { Navbar } from "rsuite";
-import SimpleMap from "./Map";
+
 // import classNames from "classnames";
 import image7 from "../src/images/farine.jpg";
 import image1 from "../src/images/bread1.jpg";
@@ -57,7 +57,7 @@ export default class ScrollingDiv extends React.Component {
       position: this.state.scrolling ? "fixed" : "fixed",
       // display: "inline-block",
 
-      fontSize: this.state.scrolling ? "2.3rem" : "3.6em",
+      fontSize: this.state.scrolling ? "2rem" : "1.4em",
     };
 
     const sousTextStyle = {
