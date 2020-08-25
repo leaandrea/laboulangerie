@@ -49,7 +49,7 @@ export default class ScrollingDiv extends React.Component {
       // display: "inline-block",
 
       width: this.state.scrolling ? "100vw" : "100vw",
-      height: this.state.scrolling ? "11vh" : "100vh",
+      height: this.state.scrolling ? "12vh" : "100vh",
     };
 
     const textStyle = {
@@ -57,7 +57,7 @@ export default class ScrollingDiv extends React.Component {
       position: this.state.scrolling ? "fixed" : "fixed",
       // display: "inline-block",
 
-      fontSize: this.state.scrolling ? "2.3rem" : "3.3em",
+      fontSize: this.state.scrolling ? "2.3rem" : "3em",
     };
 
     const sousTextStyle = {
@@ -66,7 +66,7 @@ export default class ScrollingDiv extends React.Component {
       // display: "inline-block",
 
       fontSize: this.state.scrolling ? "0.8rem" : "1.8rem",
-      marginTop: this.state.scrolling ? "2%" : "12%",
+      // marginTop: this.state.scrolling ? "2%" : "12%",
     };
 
     // const tryClass = classNames("boldText", "phoneNumber");
