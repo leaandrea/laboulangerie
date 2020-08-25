@@ -66,7 +66,7 @@ export default class ScrollingDiv extends React.Component {
       // display: "inline-block",
 
       fontSize: this.state.scrolling ? "0.8rem" : "1.8rem",
-      marginTop: this.state.scrolling ? "8%" : "12%",
+      marginTop: this.state.scrolling ? "4.5%" : "12%",
     };
 
     // const tryClass = classNames("boldText", "phoneNumber");
