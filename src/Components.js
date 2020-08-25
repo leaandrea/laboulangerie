@@ -54,7 +54,7 @@ export default class ScrollingDiv extends React.Component {
 
     const textStyle = {
       zIndex: 2,
-      position: this.state.scrolling ? "fixed" : "fixed",
+      position: this.state.scrolling ? "relative" : "fixed",
       // display: "inline-block",
 
       fontSize: this.state.scrolling ? "2.3rem" : "3em",
@@ -66,7 +66,7 @@ export default class ScrollingDiv extends React.Component {
       // display: "inline-block",
 
       fontSize: this.state.scrolling ? "0.8rem" : "1.8rem",
-      marginTop: this.state.scrolling ? "4.5%" : "12%",
+      marginTop: this.state.scrolling ? "4.9%" : "12%",
     };
 
     // const tryClass = classNames("boldText", "phoneNumber");
@@ -232,7 +232,7 @@ export default class ScrollingDiv extends React.Component {
             {/* <hr className="diagonale" /> */}
             <div className="créditsContainer">
               <span className="crédits">
-                &nbsp;&nbsp;la boulangerie © 2020 - site réalisé par{" "}
+                &nbsp;la boulangerie © 2020 - site réalisé par{" "}
                 <span className="boldTextCredits"> Léa</span>
               </span>
             </div>
