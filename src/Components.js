@@ -57,7 +57,7 @@ export default class ScrollingDiv extends React.Component {
       position: this.state.scrolling ? "fixed" : "fixed",
       // display: "inline-block",
 
-      fontSize: this.state.scrolling ? "2.3rem" : "3em",
+      fontSize: this.state.scrolling ? "2.3rem" : "",
     };
 
     const sousTextStyle = {
@@ -65,7 +65,7 @@ export default class ScrollingDiv extends React.Component {
       position: this.state.scrolling ? "fixed" : "fixed",
       // display: "inline-block",
 
-      fontSize: this.state.scrolling ? "0.8rem" : "1.5rem",
+      fontSize: this.state.scrolling ? "0.8rem" : "",
       // marginTop: this.state.scrolling ? "0" : "12%",
     };
 
