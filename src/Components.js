@@ -230,10 +230,7 @@ export default class ScrollingDiv extends React.Component {
             </div>
             {/* <hr className="diagonale" /> */}
             <div className="créditsContainer">
-              <span className="crédits">
-                &nbsp;la boulangerie © 2020 - site réalisé par{" "}
-                <span className="boldTextCredits"> Léa</span>
-              </span>
+              <span className="crédits">&nbsp;la boulangerie © 2020</span>
             </div>
           </div>
         </BrowserRouter>
