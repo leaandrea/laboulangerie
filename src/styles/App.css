@@ -782,19 +782,6 @@ image:after {
     width: 40vw;
   }
 
-  .soustitre {
-    font-family: Josefin Sans;
-    color: #ededed;
-    /* transition: font-size 1.1s, margin-top 1s; */
-
-    font-size: 1.8rem;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    z-index: 1000;
-    /* margin-top: 0; */
-  }
-
   .firstDiv .mainTitle {
     display: flex;
 
@@ -809,6 +796,19 @@ image:after {
     font-family: Josefin Sans;
 
     z-index: 1000;
+  }
+
+  .soustitre {
+    font-family: Josefin Sans;
+    color: #ededed;
+    /* transition: font-size 1.1s, margin-top 1s; */
+
+    font-size: 1.8rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    /* margin-top: 0; */
   }
 
   .ouvertureText {
