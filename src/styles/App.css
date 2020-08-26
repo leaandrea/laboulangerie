@@ -12,6 +12,7 @@
 
 .firstDiv {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   align-content: center;
   align-items: center;
@@ -774,6 +775,18 @@ image:after {
 }
 
 @media only screen and (max-width: 600px) {
+  .firstDiv {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #242337;
+    justify-content: center;
+    transition: height ease 0.8s;
+    text-decoration: none;
+    z-index: 1000;
+  }
   .phoneNumber {
     width: 33vw;
   }
