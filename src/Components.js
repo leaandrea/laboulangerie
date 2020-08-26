@@ -127,10 +127,9 @@ export default class ScrollingDiv extends React.Component {
             <p className="thirdDivBisParagraph">
               « Notre engagement,{" "}
               <span className="boldText">tout faire maison</span> : des
-              croissants et pains au chocolat jusqu'à la compote des chaussons
-              aux pommes. Tout sera réalisé sur place, avec notre équipe et dans
-              le respect des traditions, afin de proposer le meilleur à nos
-              clientes et clients. Il en ira de même pour la pâtisserie : seront
+              croissants jusqu'à la compote des chaussons aux pommes. Tout sera
+              réalisé sur place afin de proposer le meilleur à nos clientes et
+              clients. Il en ira de même pour la pâtisserie : seront
               sélectionnés des produits de qualité, et privilégiés des fruits de
               saison. »
             </p>
