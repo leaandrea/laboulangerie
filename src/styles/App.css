@@ -468,7 +468,7 @@ image:after {
   align-items: center;
   /* font-size: 1.2rem; */
   font-weight: 700;
-  width: 9vw;
+  width: 10vw;
   height: 5vh;
   /* background-color: #ededed; */
   border: solid 1.5px white;
@@ -643,7 +643,7 @@ image:after {
 .partenairesContainer {
   display: flex;
   align-content: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100vw;
 }
@@ -651,7 +651,8 @@ image:after {
 .div2,
 .div4 {
   display: flex;
-  margin: 40px;
+  /* margin: 40px; */
+  margin: 20px;
   width: 100px;
   height: 95px;
   /* justify-content: center;
@@ -661,14 +662,16 @@ image:after {
 
 .div1 {
   display: flex;
-  margin: 40px;
+  /* margin: 40px; */
   width: 120px;
+  margin: 20px;
   height: 90px;
 }
 
 .div3 {
   display: flex;
-  margin: 40px;
+  /* margin: 40px; */
+  margin: 20px;
   width: 145px;
   height: 90px;
 }
@@ -770,7 +773,7 @@ image:after {
   }
 
   .nousLocaliser {
-    width: 20vw;
+    width: 15vw;
   }
 }
 
@@ -801,7 +804,7 @@ image:after {
   }
 
   .nousLocaliser {
-    width: 40vw;
+    width: 30vw;
   }
 
   .firstDiv .mainTitle {
