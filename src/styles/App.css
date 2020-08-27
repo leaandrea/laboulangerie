@@ -787,6 +787,7 @@ image:after {
     text-decoration: none;
     z-index: 1000;
   }
+
   .phoneNumber {
     width: 33vw;
   }
@@ -854,6 +855,22 @@ image:after {
     align-content: center;
     align-items: center;
     /* border: solid 2px red; */
+  }
+
+  .secondDivParagraph {
+    width: 95vw;
+  }
+
+  .thirdDivParagraph {
+    width: 95vw;
+  }
+
+  .fourthDivParagraph {
+    width: 95vw;
+  }
+
+  .thirdDivBisParagraph {
+    width: 95vw;
   }
 }
 
