@@ -5,7 +5,7 @@ import { Navbar } from "rsuite";
 // import classNames from "classnames";
 import image7 from "../src/images/farine.jpg";
 import image1 from "../src/images/bread1.jpg";
-import image3 from "../src/images/croissants.jpg";
+import image3 from "../src/images/facade.jpg";
 import image4 from "../src/images/fraises.jpg";
 import image5 from "../src/images/pommes3.jpg";
 import image6 from "../src/images/magasin.png";
@@ -139,8 +139,8 @@ export default class ScrollingDiv extends React.Component {
           <div className="fourthDiv">
             <div className="blocImages">
               <img src={image3} className="image3" alt="logo"></img>
-              <img src={image4} className="image4" alt="logo"></img>
-              <img src={image5} className="image5" alt="logo"></img>
+              {/* <img src={image4} className="image4" alt="logo"></img>
+              <img src={image5} className="image5" alt="logo"></img> */}
             </div>
             <div className="divLine">
               {/* <hr className="diagonaleFoncee" /> */}
@@ -191,43 +191,18 @@ export default class ScrollingDiv extends React.Component {
             {/* <hr className="diagonale" /> */}
 
             <div className="nosPartenaires">
-              <p>Nos partenaires : </p>
+              <p>Notre partenaire : </p>
+
               <div className="partenairesContainer">
-                <div className="div3">
-                  <a href="https://www.blaisdis.com/">
-                    <img src={image10} className="image10" alt="logo"></img>{" "}
-                  </a>
-                </div>
                 <div className="div2">
                   <a href="https://www.moulindauguste.fr/">
                     <img src={image9} className="image9" alt="logo"></img>{" "}
                   </a>
                 </div>
-                <div className="div1">
-                  <a href="https://www.simon-emmanuel.fr/">
-                    <img src={image8} className="image8" alt="logo"></img>{" "}
-                  </a>
-                </div>
-                <div className="div4">
-                  <a href="https://www.belletequipement.com/">
-                    {" "}
-                    <img
-                      src={image11}
-                      className="image11"
-                      alt="logo"
-                    ></img>{" "}
-                  </a>
-                </div>
               </div>
             </div>
 
-            <div className="lastDivDiv">
-              <div className="ouverture">
-                <span className="ouvertureText">
-                  Ouverture prévue début Novembre
-                </span>
-              </div>
-            </div>
+            <div className="lastDivDiv"></div>
             {/* <hr className="diagonale" /> */}
             <div className="créditsContainer">
               <span className="crédits">&nbsp;la boulangerie © 2020</span>
